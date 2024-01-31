@@ -1,0 +1,26 @@
+#flex-container-responsive
+{
+    flex-direction: initial;
+    margin-top: 3%;
+    width: 100%;
+}
+
+#container-responsive
+{
+    width: 40%;
+}
+
+@media screen and (max-width: 984px) {
+    #flex-container-responsive {
+        flex-direction: column;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    #container-responsive {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+}

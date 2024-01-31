@@ -1,0 +1,53 @@
+@font-face {
+    font-family: rocks;
+    src: url(/fonts/rocks.otf);
+}
+
+body {
+    background-color: #0e0707;
+    font-family: 'rocks', sans-serif;
+}
+
+h1 {
+    color: #633838;
+    font-size: 50px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #4d1313;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+}
+
+.navbar {
+    padding: 5px;
+    background-color: #7e6a6a;
+    text-align: center;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-right: 10px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #633838; 
+}
+
+.nav-link:hover {
+    color: #c1b5b5; 
+}
